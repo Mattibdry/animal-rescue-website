@@ -14,16 +14,17 @@ html {
 }
 
 .left-section {
-
+vertical-align: middle;
+margin: auto;
 }
 
 .right-section{
-
+  padding-right: 3em;
 }
 
 .top-banner {
   background-color: #f1f1f1;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .banner-img {
@@ -106,16 +107,38 @@ position: relative;
 .section-3-text {
   color: grey;
   padding-left: 2em;
-  padding-top: 5em;
+  padding-top: 1.5em;
 }
 
 
 .cta {
 background-color: #a73619;
 border: none;
+font-size: 1.2em;
 }
 
 .cta:hover {
   background-color: #feb056;
   color: #a73619;
+}
+
+.right-section li p {
+  font-size: .8rem;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.items-right {
+  vertical-align: middle;
+}
+
+.icon-nav {
+  margin-left: 10px
+}
+
+.donate-btn {
+  text-align: right;
+  float: right;
+  background-color: #5e6619;
+  border: none;
 }
