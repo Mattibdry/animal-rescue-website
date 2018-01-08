@@ -7,32 +7,61 @@ a {
   text-decoration: none;
 }
 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul li a:hover {
+  color: #feb056;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10%;
+  background-color: #5e6619;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 26%;
+}
+
 .logo {
   width: 30%;
   margin-left: 50px;
 }
 
 .left-section {
-vertical-align: middle;
-margin: auto;
+  vertical-align: middle;
+  margin: auto;
 }
 
-.right-section{
+.right-section {
   padding-right: 3em;
 }
 
 .top-banner {
   background-color: #f1f1f1;
-  padding: 10px 0px;
-}
-
-.hero-img {
-  filter: brightness(70%);
+  padding: 10px 0;
 }
 
 nav {
   width: 100%;
   background-color: #a9350e;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 nav ul {
@@ -52,17 +81,6 @@ nav ul li {
   box-sizing: border-box;
 }
 
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 0;
-}
-
-nav ul li a:hover {
-  color: #feb056;
-}
-
 
 .hero {
   width: 100%;
@@ -71,7 +89,8 @@ nav ul li a:hover {
 
 .hero-content {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -89,8 +108,8 @@ nav ul li a:hover {
 }
 
 .cta {
-background-color: #a73619;
-border: none;
+  background-color: #a73619;
+  border: none;
 }
 
 .cta:hover {
@@ -107,7 +126,7 @@ border: none;
 }
 
 .icon-nav {
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 .donate-btn {
@@ -124,25 +143,25 @@ border: none;
   border: 1px solid #5e6619;
 }
 
-
 .section-3 {
   background-image: url("../images/banner-section-3.jpg");
   height: 300px;
   background-position: left;
   background-size: cover;
   position: relative;
-
 }
 
 .section-3-content {
   position: absolute;
-  top: 50%; left: 70%;
+  top: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 .middle-div {
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
@@ -151,12 +170,9 @@ border: none;
   border-radius: 30px;
 }
 
-
-/* ------*/
-
 .hero-img {
   background-image: url("../images/rescues-banner.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, .3);
   background-blend-mode: multiply;
   height: 300px;
   background-position: center;
@@ -167,7 +183,8 @@ border: none;
 
 .hero-container {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
 }
@@ -182,22 +199,20 @@ border: none;
 }
 
 .card-container {
-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.1);
-margin: 0px 50px;
-border-radius: 10px;
-transition: all .2s;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, .1);
+  margin: 0 50px;
+  border-radius: 10px;
+  transition: all .2s;
 }
 
 .card-container:hover {
   transform: scale(1.1);
-  background-color: rgba(167,54,25,0.1);
+  background-color: rgba(167, 54, 25, .1);
 }
-
-/*--------*/
 
 .hero-img-adopt {
   background-image: url("../images/adopt-banner.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, .3);
   background-blend-mode: multiply;
   height: 300px;
   background-position: center;
@@ -207,16 +222,13 @@ transition: all .2s;
 }
 
 fieldset {
-  border-top:0px;
-  margin-bottom: 0px;
+  border-top: 0;
+  margin-bottom: 0;
 }
-
-
-/*-----------*/
 
 .hero-img-rescues {
   background-image: url("../images/rescues-banner.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, .3);
   background-blend-mode: multiply;
   height: 300px;
   background-position: center;
@@ -225,12 +237,9 @@ fieldset {
   position: relative;
 }
 
-
-/*------------*/
-
 .hero-img-index {
-  background-image: url("../images/rescues-banner.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-image: url("../images/banner.jpg");
+  background-color: rgba(0, 0, 0, .3);
   background-blend-mode: multiply;
   height: 500px;
   background-position: center;

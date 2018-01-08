@@ -11,6 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 </head>
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Navigation</a></li>
+    <li><a href="#Main">Content</a></li>
+  </ul>
+
   <header role="banner">
     <section class="top-banner grid">
 
@@ -41,7 +47,7 @@
       </div>
     </section>
 
-    <nav role="navigation" class="center-text">
+    <nav id="nav" role="navigation" class="center-text">
       <ul class="list-group-inline center-text">
         <li><a href="index.html">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
@@ -52,7 +58,7 @@
       </ul>
     </nav>
   </header>
-  <main role="main">
+  <main id="main" role="main">
 
     <section class="hero-img-adopt embed embed-5by1">
       <div class="hero-container embed-item center-text">
@@ -61,7 +67,7 @@
     </section>
 
     <section>
-        <form class="wrapper">
+      <form class="wrapper">
         <fieldset class="pad-t pad-b-1-2">
           <legend class="pad-t-2 giga bold gutter-1-2 uppercase orange">Personal details</legend>
           <div class="grid">
@@ -114,83 +120,83 @@
           </div>
         </fieldset>
 
-         <fieldset class="grid island-1-2">
-           <legend class="unit pad-t-2 giga uppercase orange">Check which interests you</legend>
-           <div class="grid">
-             <div class="unit m-1-2">
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="shovels" name="experience" type="checkbox">
-                 <label for="shovels">Small Dog</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="hand-held" name="experience" type="checkbox">
-                 <label for="hand-held">Big Dog</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="write" name="experience" type="checkbox">
-                 <label for="write">Old Dog</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="photography" name="experience" type="checkbox">
-                 <label for="photography">Young Dog</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="trail" name="experience" type="checkbox">
-                 <label for="trail">Old Cat</label>
-               </div>
-             </div>
-             <div class="unit m-1-2">
-               <div class="unit kilo push-1-8 pad-t-1-4">
-                 <input id="bush" name="experience" type="checkbox">
-                 <label for="bush">Young Cat</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="atv" name="experience" type="checkbox">
-                 <label for="atv">Healthy Pet</label>
-               </div>
-               <div class="kilo push-1-8 pad-t-1-4">
-                 <input id="plant-id" name="experience" type="checkbox">
-                 <label for="plant-id">Medical Needs</label>
-               </div>
-             </div>
-           </div>
-         </fieldset>
-         <fieldset class="grid island-1-2">
-           <legend class="unit pad-t-2 giga">Do you have a backyard?</legend>
-           <div class="unit">
-             <input id="yes-truck" name="truck" type="radio">
-             <label for="yes-truck">Yes</label>
-             <input id="no-truck" name="truck" type="radio">
-             <label for="no-truck">No</label>
-           </div>
-         </fieldset>
-         <fieldset class="grid island-1-2">
-           <legend class="unit pad-t-2 giga">Do you have other pets?</legend>
-           <div class="unit">
-             <input id="yes-first-aid" name="first-aid" type="radio">
-             <label for="yes-first-aid">Yes</label>
-             <input id="no-first-aid" name="no-first-aid" type="radio">
-             <label for="no-first-aid">No</label>
-           </div>
-           <div class="grid island-1-2">
+        <fieldset class="grid island-1-2">
+          <legend class="unit pad-t-2 giga uppercase orange">Check which interests you</legend>
+          <div class="grid">
+            <div class="unit m-1-2">
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="shovels" name="experience" type="checkbox">
+                <label for="shovels">Small Dog</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="hand-held" name="experience" type="checkbox">
+                <label for="hand-held">Big Dog</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="write" name="experience" type="checkbox">
+                <label for="write">Old Dog</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="photography" name="experience" type="checkbox">
+                <label for="photography">Young Dog</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="trail" name="experience" type="checkbox">
+                <label for="trail">Old Cat</label>
+              </div>
+            </div>
+            <div class="unit m-1-2">
+              <div class="unit kilo push-1-8 pad-t-1-4">
+                <input id="bush" name="experience" type="checkbox">
+                <label for="bush">Young Cat</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="atv" name="experience" type="checkbox">
+                <label for="atv">Healthy Pet</label>
+              </div>
+              <div class="kilo push-1-8 pad-t-1-4">
+                <input id="plant-id" name="experience" type="checkbox">
+                <label for="plant-id">Medical Needs</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="grid island-1-2">
+          <legend class="unit pad-t-2 giga">Do you have a backyard?</legend>
+          <div class="unit">
+            <input id="yes-truck" name="truck" type="radio">
+            <label for="yes-truck">Yes</label>
+            <input id="no-truck" name="truck" type="radio">
+            <label for="no-truck">No</label>
+          </div>
+        </fieldset>
+        <fieldset class="grid island-1-2">
+          <legend class="unit pad-t-2 giga">Do you have other pets?</legend>
+          <div class="unit">
+            <input id="yes-first-aid" name="first-aid" type="radio">
+            <label for="yes-first-aid">Yes</label>
+            <input id="no-first-aid" name="no-first-aid" type="radio">
+            <label for="no-first-aid">No</label>
+          </div>
+          <div class="grid island-1-2">
             <fieldset class="unit xs-1">
               <legend class="pad-t-2 giga">If answered "Yes" to having other pets, please tells us a bit about them.</legend>
               <textarea rows="6" id="yespet" name="yespet"></textarea>
             </fieldset>
           </div>
-            <div class="grid island-1-2">
-              <fieldset class="unit xs-1">
-                <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
-                <textarea rows="6" id="reason" name="reason"></textarea>
-               <hr>
-             </fieldset>
-           </div>
-         </fieldset>
+          <div class="grid island-1-2">
+            <fieldset class="unit xs-1">
+              <legend class="pad-t-2 giga">Please let us know any comments or questions you may have.</legend>
+              <textarea rows="6" id="reason" name="reason"></textarea>
+              <hr>
+            </fieldset>
+          </div>
+        </fieldset>
 
-         <div class="text-center push">
-           <button class="btn text-center" type="submit">Apply</button>
-         </div>
-       </form>
+        <div class="text-center push">
+          <button class="btn text-center" type="submit">Apply</button>
+        </div>
+      </form>
     </section>
   </main>
   <footer>
