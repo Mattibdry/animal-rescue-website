@@ -91,6 +91,10 @@ nav ul li a:hover {
   color: #fff;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 .cta {
 background-color: #a73619;
@@ -167,7 +171,7 @@ font-size: 1.2em;
   color: #fff;
 }
 
-.banner-container h2 {
+.banner-container h1 {
   text-transform: uppercase;
   font-size: 3em;
   font-weight: bold;
@@ -197,4 +201,24 @@ transition: all .2s;
 a {
   text-decoration: none;
   color: #000;
+}
+
+
+
+/*--------*/
+
+.hero-banner-adopt{
+  background-image: url("../images/adopt-banner.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+fieldset {
+  border-top:0px;
+  margin-bottom: 0px;
 }
