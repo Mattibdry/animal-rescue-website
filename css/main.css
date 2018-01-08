@@ -1,11 +1,10 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .logo {
@@ -27,7 +26,7 @@ margin: auto;
   padding: 10px 0px;
 }
 
-.banner-img {
+.hero-img {
   filter: brightness(70%);
 }
 
@@ -43,9 +42,7 @@ nav ul {
 }
 
 nav ul li {
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  font-size: .7em;
+  font-family: Lato, sans-serif;
   list-style: none;
   float: left;
   text-align: center;
@@ -67,15 +64,15 @@ nav ul li a:hover {
 }
 
 
-.banner {
+.hero {
   width: 100%;
   position: relative;
 }
 
-.banner-content {
+.hero-content {
   position: absolute;
   top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -91,15 +88,9 @@ nav ul li a:hover {
   color: #fff;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-
 .cta {
 background-color: #a73619;
 border: none;
-font-size: 1.2em;
 }
 
 .cta:hover {
@@ -108,8 +99,6 @@ font-size: 1.2em;
 }
 
 .right-section li p {
-  font-size: .8rem;
-  text-transform: uppercase;
   text-align: right;
 }
 
@@ -122,10 +111,17 @@ font-size: 1.2em;
 }
 
 .donate-btn {
-  text-align: right;
+  text-align: center;
   float: right;
   background-color: #5e6619;
   border: none;
+  color: #fff;
+}
+
+.donate-btn:hover {
+  background-color: #f1f1f1;
+  color: #5e6619;
+  border: 1px solid #5e6619;
 }
 
 
@@ -141,9 +137,14 @@ font-size: 1.2em;
 .section-3-content {
   position: absolute;
   top: 50%; left: 70%;
-  transform: translate(-50%,-50%);
-  text-transform: uppercase;
+  transform: translate(-50%, -50%);
   color: white;
+}
+
+.middle-div {
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .sec-2-card {
@@ -153,7 +154,7 @@ font-size: 1.2em;
 
 /* ------*/
 
-.hero-banner {
+.hero-img {
   background-image: url("../images/rescues-banner.jpg");
   background-color: rgba(0,0,0,0.3);
   background-blend-mode: multiply;
@@ -164,17 +165,11 @@ font-size: 1.2em;
   position: relative;
 }
 
-.banner-container {
+.hero-container {
   position: absolute;
   top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
-}
-
-.banner-container h1 {
-  text-transform: uppercase;
-  font-size: 3em;
-  font-weight: bold;
 }
 
 .rescue-main {
@@ -198,16 +193,9 @@ transition: all .2s;
   background-color: rgba(167,54,25,0.1);
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-
-
 /*--------*/
 
-.hero-banner-adopt{
+.hero-img-adopt {
   background-image: url("../images/adopt-banner.jpg");
   background-color: rgba(0,0,0,0.3);
   background-blend-mode: multiply;
@@ -221,4 +209,32 @@ a {
 fieldset {
   border-top:0px;
   margin-bottom: 0px;
+}
+
+
+/*-----------*/
+
+.hero-img-rescues {
+  background-image: url("../images/rescues-banner.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+/*------------*/
+
+.hero-img-index {
+  background-image: url("../images/rescues-banner.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
