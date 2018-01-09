@@ -9,12 +9,14 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon-196.png">
 </head>
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav">Navigation</a></li>
-    <li><a href="#main">Directory</a></li>
+    <li><a tabindex="0" href="#nav">Navigation</a></li>
+    <li><a tabindex="0" href="#main">Directory</a></li>
   </ul>
 
   <header role="banner">
@@ -51,18 +53,18 @@
       </div>
     </div>
 
-    <nav id="nav" role="navigation" class="center-text">
+    <nav tabindex="0" id="nav" role="navigation" class="center-text">
       <ul class="list-group-inline center-text">
         <li><a class="micro" href="index.html">HOME</a></li>
         <li><a class="micro" href="#">ABOUT</a></li>
         <li><a class="micro" href="#">HOURS</a></li>
         <li><a class="micro" href="adopt.html">ADOPT</a></li>
         <li><a class="micro" href="rescues.html">OUR RESCUES</a></li>
-        <li><a class="micro" href="#">SUPPORT US</a></li>
       </ul>
     </nav>
   </header>
-  <main role="main">
+
+  <main tabindex="0" role="main">
 
     <section class="push-1">
 
@@ -70,7 +72,7 @@
         <div class="middle-div center-text">
           <h1 style="text-transform: uppercase; font-weight: 700; color: #fff" class="nina push-none">Donate and save the WildLife Today!</h1>
           <p class="white">We can make the world a better place, Together.</p>
-          <a class="btn cta">Donate Now!</a>
+          <a href="#" class="btn cta">Donate Now!</a>
         </div>
       </div>
 
@@ -78,7 +80,7 @@
 
     <div id="main" class="grid gutter-2 pad-t section-2">
 
-      <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island gutter-2">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 island gutter-2">
         <a class="icon-link" href="#">
           <div class="embed embed-1by1 push-1-2">
             <img class="embed-item sec-2-card" src="images/2-monkeys.jpg" alt="">
@@ -90,7 +92,7 @@
         </a>
       </div>
 
-      <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island gutter-2">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 island gutter-2">
         <a class="icon-link" href="adopt.html">
           <div class="embed embed-1by1 push-1-2">
             <img class="embed-item sec-2-card" src="images/girafe.jpg" alt="">
@@ -102,7 +104,7 @@
         </a>
       </div>
 
-      <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island gutter-2">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 island gutter-2">
         <a class="icon-link" href="rescues.html">
           <div class="embed embed-1by1 push-1-2">
             <img class="embed-item sec-2-card" src="images/bird.jpg" alt="">
@@ -117,19 +119,45 @@
     </div>
 
     <div class="section-3">
-      <div class="">
+      <div class="section-3-disappear">
 
       </div>
       <div class="section-3-content">
         <p class="giga">With plenty of new rescues every day. The park is a magical kingdom.</p>
-        <a class="btn cta">View Our Rescues</a>
+        <a href="rescues.html" class="btn cta">View Our Rescues</a>
       </div>
     </div>
   </main>
-  <footer>
-    <div role="contentinfo" class="">
-      <p>Content Info</p>
+
+  <footer class="grid pad-t-2 pad-b-2" role="contentinfo">
+
+    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Pages</h3>
+      <div class="center-text">
+        <p class="micro push-none"><a href="index.html">Home</a></p>
+        <p class="micro push-none"><a href="#">About</a></p>
+        <p class="micro push-none"><a href="#">Hours</a></p>
+        <p class="micro push-none"><a href="adopt.html">Adopt</a></p>
+        <p class="micro push-none"><a href="rescues.html">Our Rescues</a></p>
+        <p class="micro push-none"><a href="#">Support Us</a></p>
+      </div>
     </div>
+
+    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Donation</h3>
+      <p class="micro">All donations are final and non refundable.<br>All donations are going towards taking better care of our animals and keeping them safe.</p>
+    </div>
+
+    <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Follow Us</h3>
+      <ul style="display: -webkit-inline-box;">
+        <li class="gutter-1-2"><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li class="gutter-1-2"><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+      </ul>
+      <p class="micro">Costa Rica Monkey Park © 2017</p>
+      <img style="margin:auto" class="logo center-text" src="images/logo.png" alt="#">
+    </div>
+
   </footer>
 
 </body>

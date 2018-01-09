@@ -9,12 +9,15 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon-196.png">
+
 </head>
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav">Navigation</a></li>
-    <li><a href="#main">Content</a></li>
+    <li><a tabindex="0" href="#nav">Navigation</a></li>
+    <li><a tabindex="0" href="#main">Content</a></li>
   </ul>
 
   <header role="banner">
@@ -31,30 +34,33 @@
               <svg class="right icon-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 348" width="25" height="25" color="#5e6619">
                 <path d="M324 271l-48-49c-10-9-26-9-36 1l-24 24-5-2c-16-9-37-21-59-43s-34-43-43-59l-2-5 16-16 8-8c10-10 10-26 1-36L83 30c-9-10-25-10-35 0L34 44v1a81 81 0 0 0-16 40c-7 53 18 101 84 167 91 91 164 84 167 84a81 81 0 0 0 40-16l14-14c10-10 11-26 1-35zM670 54a106 106 0 0 0-150 0c-37 37-41 107-10 149l85 123 85-123c32-42 27-112-10-149zm-74 112a39 39 0 0 1 0-77 39 39 0 0 1 0 77z"/>
               </svg>
-              <p class="push-none">(506)2653-8032</p>
+              <p class="push-none micro">(506)2653-8032</p>
             </li>
+
             <li class="items-right push-1-2">
               <svg class="right icon-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 348" width="25" height="25" color="#5e6619">
                 <path d="M263.3,53.7c-20-20-46.7-31.1-75-31.1c-28.3,0-55,11-75,31.1c-37.1,37.1-41.7,106.8-10,149.1l85,122.7l84.8-122.5C305,160.5,300.4,90.8,263.3,53.7z M189.3,166.4c-21.3,0-38.7-17.4-38.7-38.7S167.9,89,189.3,89s38.7,17.4,38.7,38.7S210.6,166.4,189.3,166.4z"/>
               </svg>
-              <p class="push-none">155 Guanacaste Province, Costa Rica</p>
+              <p class="push-none micro">155 Guanacaste Province, Costa Rica</p>
             </li>
+
             <li>
-              <p class="push-none btn btn-light donate-btn">Donate</p>
+              <a href="#">
+                <p class="push-none btn btn-light donate-btn micro">Donate</p>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </section>
 
-    <nav id="nav" role="navigation" class="center-text">
+    <nav tabindex="0" id="nav" role="navigation" class="center-text">
       <ul class="list-group-inline center-text">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">HOURS</a></li>
-        <li><a href="adopt.html">ADOPT</a></li>
-        <li><a href="rescues.html">OUR RESCUES</a></li>
-        <li><a href="#">SUPPORT US</a></li>
+        <li><a class="micro" href="index.html">HOME</a></li>
+        <li><a class="micro" href="#">ABOUT</a></li>
+        <li><a class="micro" href="#">HOURS</a></li>
+        <li><a class="micro" href="adopt.html">ADOPT</a></li>
+        <li><a class="micro" href="rescues.html">OUR RESCUES</a></li>
       </ul>
     </nav>
   </header>
@@ -67,6 +73,9 @@
     </section>
 
     <section class="grid rescue-main pad-t-2 pad-b-2 gutter-2">
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <p class="center-text giga bold orange">Click to Learn More</p>
+      </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-3 center-text push-2">
         <a href="#">
           <div class="island card-container">
@@ -93,9 +102,20 @@
         <a href="#">
           <div class="island card-container">
             <img class="rescue-cards" src="images/card-3.jpg" alt="">
+            <h2 class="push-1-2 giga">Alex</h2>
+            <hr class="push-1-2">
+            <p style="font-size:.7em;">Jenny is a 2 year old bengal tiger; she may look very dangerous. But she's a sweetheart and loves to play around.</p>
+            <p class="micro orange push-none">Friendly, gentle, and very loving.</p>
+          </div>
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-3 center-text push-2">
+        <a href="#">
+          <div class="island card-container">
+            <img class="rescue-cards" src="images/jenny.jpg" alt="">
             <h2 class="push-1-2 giga">Jenny</h2>
             <hr class="push-1-2">
-            <p style="font-size:.7em;" class="">Jenny is a 2 year old bengal tiger; she may look very dangerous. But she's a sweetheart and loves to play around.</p>
+            <p class="milli">Jenny is a 8 year old monkey that has recently joined the family.</p>
             <p class="micro orange push-none">Friendly, gentle, and very loving.</p>
           </div>
         </a>
@@ -103,8 +123,8 @@
       <div class="unit xs-1 s-1 m-1-2 l-1-3 center-text push-2">
         <a href="#">
           <div class="island card-container">
-            <img class="rescue-cards" src="images/card-1.jpg" alt="">
-            <h2 class="push-1-2 giga">Manny</h2>
+            <img class="rescue-cards" src="images/george.jpg" alt="">
+            <h2 class="push-1-2 giga">George</h2>
             <hr class="push-1-2">
             <p class="milli">Manny is a 3 year old monkey that has recently joined the famili.</p>
             <p class="micro orange push-none">Friendly, gentle, and very loving.</p>
@@ -114,19 +134,8 @@
       <div class="unit xs-1 s-1 m-1-2 l-1-3 center-text push-2">
         <a href="#">
           <div class="island card-container">
-            <img class="rescue-cards" src="images/card-1.jpg" alt="">
-            <h2 class="push-1-2 giga">Manny</h2>
-            <hr class="push-1-2">
-            <p class="milli">Manny is a 3 year old monkey that has recently joined the famili.</p>
-            <p class="micro orange push-none">Friendly, gentle, and very loving.</p>
-          </div>
-        </a>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-3 center-text push-2">
-        <a href="#">
-          <div class="island card-container">
-            <img class="rescue-cards" src="images/card-1.jpg" alt="">
-            <h2 class="push-1-2 giga">Manny</h2>
+            <img class="rescue-cards" src="images/tyler.jpg" alt="">
+            <h2 class="push-1-2 giga">Tyler</h2>
             <hr class="push-1-2">
             <p class="milli">Manny is a 3 year old monkey that has recently joined the famili.</p>
             <p class="micro orange push-none">Friendly, gentle, and very loving.</p>
@@ -135,11 +144,36 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div role="contentinfo" class="">
-      <p>Content Info</p>
-    </div>
-  </footer>
 
+  <footer class="grid pad-t-2 pad-b-2" role="contentinfo">
+
+    <div class="unit xs-1 s-1 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Pages</h3>
+      <div class="center-text">
+        <p class="micro push-none"><a href="index.html">Home</a></p>
+        <p class="micro push-none"><a href="#">About</a></p>
+        <p class="micro push-none"><a href="#">Hours</a></p>
+        <p class="micro push-none"><a href="adopt.html">Adopt</a></p>
+        <p class="micro push-none"><a href="rescues.html">Our Rescues</a></p>
+        <p class="micro push-none"><a href="#">Support Us</a></p>
+      </div>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Donation</h3>
+      <p class="micro">All donations are final and non refundable.<br>All donations are going towards taking better care of our animals and keeping them safe.</p>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-3 l-1-3 center-text">
+      <h3 style="text-transform:uppercase;" class="milli push-none">Follow Us</h3>
+      <ul style="display: -webkit-inline-box;">
+        <li class="gutter-1-2"><a href="#" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li class="gutter-1-2"><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+      </ul>
+      <p class="micro">Costa Rica Monkey Park © 2017</p>
+      <img style="margin:auto" class="logo center-text" src="images/logo.png" alt="#">
+    </div>
+
+  </footer>
 </body>
 </html>

@@ -628,7 +628,6 @@ ul {
 }
 
 ul > li::before {
-  content: "·";
   float: left;
   margin-left: -1.6em;
   width: 1.3em;
@@ -1299,4 +1298,5 @@ a:focus, [tabindex="0"]:focus {
   }
 
   /* End HTML5 Boilerplate code */
+
 }
